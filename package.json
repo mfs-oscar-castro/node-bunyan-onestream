@@ -1,15 +1,15 @@
 {
-  "name": "bunyan",
+  "name": "bunyan-onestream",
   "version": "1.8.15",
-  "description": "a JSON logging library for node.js services",
-  "author": "Trent Mick <trentm@gmail.com> (http://trentm.com)",
+  "description": "Forked from node-bunyan - Write one stream at time",
+  "author": "Oscar Castro",
   "main": "./lib/bunyan.js",
   "bin": {
     "bunyan": "./bin/bunyan"
   },
   "repository": {
     "type": "git",
-    "url": "git://github.com/trentm/node-bunyan.git"
+    "url": "github.com/ocjuarez/node-bunyan-onestream.git"
   },
   "engines": [
     "node >=0.10.0"
